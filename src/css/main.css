@@ -1,0 +1,331 @@
+.banner{
+    position: absolute;
+    z-index: -999;
+    top: 3%;
+}
+
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+
+.box--main .box-container{
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.box--main .box-container .title{
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 4rem;
+    font-family: var(--bebas-neue);
+    letter-spacing: .1px;
+    font-weight: 400;
+}
+
+.box--main .box-container .box-regions-teams .box--archive{
+    font-size: 1.8rem;
+    font-family: var(--font-roboto);
+    cursor: pointer;
+    padding: .1rem 1rem;
+    font-weight: 400;
+}
+
+.box--main .box-container .box-regions-teams .box--archive:hover{
+    background: var(--color-Tangerine);
+}
+
+.box--main .box-container .box-regions-teams .box--filter{
+    font-size: 1.4rem;
+    font-family: var(--font-roboto);
+    cursor: default;
+    padding: .1rem 1rem;
+}
+
+.box--main .box-container .box-regions-teams .box--filter .sigles--countries .sigles{
+    display: flex;
+    justify-content: flex-end;
+    margin: .4rem 0;
+}
+
+.box--main .box-container .box-regions-teams .box--filter .sigles--countries .sigles li{
+    margin-left: .8rem;
+    width: 3.4rem;
+    padding: 7px 0px 2px;
+    text-align: center;
+    border: 1px solid #cccccc;
+    background-color: var(--color-white-rigth);
+    border-radius: .2rem;
+    cursor: pointer;
+}
+
+.box--main .box-container .box-regions-teams .box--filter .sigles--countries .sigles li:hover{
+    background: var(--color-Tangerine);
+    border-radius: .2rem;
+}
+
+/* -----//----- */
+
+.box--main .box--rankings--teams{
+    max-width: 90%;
+    margin: 1.5rem auto;
+    padding: 0 1rem;
+}
+
+.box--main .box--rankings--teams p{
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgba(0,0,0,.4);
+    margin-bottom: .1rem;
+    font-family: var(--font-roboto);
+}
+
+.box--main .box--rankings--teams p strong{
+    color: var(--color-brown-coffee);
+}
+
+.box--main .box--rankings--teams .table--rankings{
+    min-width: 100%;
+}
+
+.box--main .box--rankings--teams .table--rankings thead .best--ranking {
+    background-color: #ff9500c7;
+    display: block;
+    border-bottom: .05rem solid var(--color-white-rigth);
+}
+
+.box--main .box--rankings--teams .table--rankings thead .best--ranking td{
+    display: flex;
+}
+
+.ranking--position--bests{
+    font-size: 3.3rem;
+    font-weight: 500;
+    font-family: var(--font-roboto);
+    background: var(--color-ambar-dourado);
+    color: var(--color-white-rigth);
+    width: 8.5rem;
+    height: 8rem;
+    line-height: 8rem;
+    text-align: center;
+    border-left: .9rem solid var(--color-brown-coffee);
+}
+
+.team--infor{
+    display: flex;
+    align-items: center;
+}
+
+.team--infor .box-item{
+    font-size: 1.5rem;
+    padding: 1.3rem 1.2rem .5rem;
+    color: var(--color-white-rigth);
+    font-weight: bold;
+}
+
+.team--infor .box-item i{
+    font-size: 1.2rem;
+    text-align: center;
+    background: var(--color-ambar-dourado);
+    padding: .3rem .5rem;
+    border-radius: .2rem;
+    display: inline-block;
+}
+
+.team--infor .team--pts{
+    text-align: right;
+    font-size: 1.3rem;
+    color: var(--color-brown-coffee);
+    font-family: var(--font-roboto);
+}
+
+.team--infor .team--pts strong{
+    padding-right: .3rem;
+    color: var(--color-white-rigth);
+}
+
+.team--infor .team{
+    display: flex;
+    align-items: center;
+    width: 35rem;
+}
+
+.team--infor .team .img--escudo{
+    width: 7rem;
+    height: 7rem;
+    margin: 0 1rem 0 1.5rem;
+}
+
+.team--infor .team .team--name--region{
+    display: flex;
+    align-items: center;
+}
+
+.team--infor .team .team--name--region .team-region{
+    margin-right: .7rem;
+    width: 3.5rem;
+    padding: .2rem 0;
+    text-align: center;
+    border: 1px solid #cccccc;
+    background-color: var(--color-white-rigth);
+    border-radius: .2rem;
+    cursor: pointer;
+    display: block;
+    font-size: 1.5rem;
+    font-family: var(--font-roboto);
+   
+}
+
+.team--infor .team .team--name--region .team--name{
+    font-size: 2.7rem;
+    font-family: var(--font-roboto);
+    color: var(--color-white-rigth);
+    letter-spacing: .1px;
+    cursor: pointer;
+}
+
+.team--infor .team .team--name--region .team--name:hover{
+    text-decoration: underline;
+}
+
+.plays{
+    display: flex;
+    padding-left: 9.5rem;
+}
+
+.plays .play{
+    position: relative;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-right: 1.5rem;
+}
+
+.plays .play .img-play{
+    width: 7rem;
+    height: 7rem;
+    margin-right: 1rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.team--infor .team .img--escudo img,
+.plays .play .img-play img{
+    width: 100%;
+    height: 100%;
+}
+
+.plays span{
+    position: absolute;
+    bottom: .2rem;
+    right: -1.1rem;
+    background: var(--color-white-rigth);
+    color: var(--color-ambar-dourado);
+    font-size: 1.3rem;
+    margin: 0 .4rem 0 0;
+    padding: .2rem .6rem;
+    border-radius: 2rem;
+    font-family: var(--font-roboto);
+    
+}
+
+.ranking--teams{
+    background-color: #ff9500c7;
+    display: block;
+    border-bottom: .05rem solid var(--color-white-rigth);
+}
+
+.ranking--teams td{
+    display: flex;
+}
+
+.ranking--teams td .ranking--position{
+    font-size: 1.65rem;
+    font-weight: 500;
+    font-family: var(--font-roboto);
+    background: var(--color-ambar-dourado);
+    color: var(--color-white-rigth);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 9rem;
+    border-left: .9rem solid var(--color-brown-coffee);
+}
+
+.ranking--teams td .team--infor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+.ranking--teams td .team--infor .box-item{
+    font-size: 1.5rem;
+    padding: 1rem .5rem .5rem;
+    display: flex;
+}
+
+.ranking--teams td .team--infor .box-item i{
+    margin-left: .5rem;
+}
+
+.team--pts{
+    width: 6rem;
+    height: 1rem;
+    padding-top: 0;
+}
+
+.ranking--teams td .team--infor .team {
+    width: 41rem;
+}
+
+.ranking--teams td .team--infor .team .img--escudo{
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-left: 4.5rem;
+}
+
+.ranking--teams td .team--infor .team .team--name--region .team--name{
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+.ranking--teams td .names--plays{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.ranking--teams td .names--plays .name--play{
+    display: block;
+    font-size: 1.5rem;
+    background: #fff;
+    border-radius: 2rem;
+    font-family: var(--font-roboto);
+    color: var(--color-ambar-dourado);
+    background: var(--color-white-rigth);
+    margin: 0 .5rem;
+    padding: .3rem .7rem;
+}
+
+.box--rankings--teams .info--change--rank{
+    margin: 3rem 0 0 7rem;
+    display: block;
+    font-size: 1.3rem;
+    color: var(--color-brown-coffee);
+    font-family: var(--font-roboto);
+    font-weight: 600;
+}
+
+.box--rankings--teams .info--change--rank i{
+    width: 1.5rem;
+    height: 1.5rem;
+    text-align: center;
+    line-height: 1.5rem;
+    border-radius: .2rem;
+    color: var(--color-white-rigth);
+    background: var(--color-brown-coffee);
+}

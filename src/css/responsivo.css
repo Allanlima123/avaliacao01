@@ -1,0 +1,240 @@
+@media(max-width:1400px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media(max-width:1200px){
+    html{
+        font-size: 50%;
+    }
+
+    .header .menu--infor--gaming{
+        border-bottom: .3rem solid var(--color-white-rigth);
+    }
+
+    .header .menu--infor--gaming .infor--gaming{
+        display: none;
+    }
+
+    .header .menu--infor--gaming .menu--icon{
+        width: 100%;
+    }
+
+    .header .box--header .nav--bar{
+        background: var(--color-ambar-dourado);
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: -800%;
+        z-index: 999;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .header .box--header .nav--bar.active{
+        top: 100%;
+    }
+
+    #menu-btn{
+        position: absolute;
+        display: block;
+        top: 10%;
+    }
+
+    .box--main .box-container{
+        max-width: 96%;
+    }
+
+    .header .box--header .nav--bar .nav--list{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+    .header .box--header .nav--bar .nav--list .nav--item{
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+    .header .box--header .nav--bar .nav--list .nav--item a{
+        font-size: 2.2rem;
+    }
+
+    .header .box--header .nav--bar .item-pro-tour{
+        margin-left: 0%;
+    }
+
+    .header .box--header .nav--bar .item-pro-tour a{
+        border: none;
+        padding-left: 0;
+    }
+
+    .header .box--header .nav--bar .item-pro-tour a{
+        font-size: 2rem;
+    }
+
+    .header .box--header .logo--league{
+        width: 45%;
+    }
+
+    
+    .box{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .box .news--end--vod,
+    .box .play,
+    .box .pro{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .box .play .others--games{
+        display: none;
+    }
+
+    .suspense-box .info-box{
+        height: 48%;
+        width:100%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+    }
+
+    .suspense-box .info-box .img--logo--league{
+        width: 20rem;
+        height: 6rem;
+        margin: 3rem 0;
+    }
+
+    .team--infor .team .img--escudo{
+        width: 5rem;
+        height: 5rem;
+        margin: 0 2rem 0 1.5rem;
+       
+    }
+
+}
+
+@media(max-width:1050px){
+    html{
+        font-size: 50%;
+    }
+
+    .header .menu--infor--ranking .menu--icon img{
+        margin-top: .7rem;
+        width: 2.3rem;
+        height: 2.3rem;
+    }
+
+    .header .menu--infor--ranking .infor--ranking{
+        display: none;
+    }
+
+    .box--main .box-container .box-regions-teams .box--archive{
+        background: var(--color-Tangerine);
+    }
+
+    .box--main .box-container .box-regions-teams .box--filter{
+        font-size: 1.7rem;
+        margin: .8rem 0;
+        padding:  0;
+    }
+
+    .box--main .box--rankings--teams p{
+        font-size: 1.5rem;
+        font-weight: 800;
+        line-height: 3rem;
+    }
+
+    .box--main .box-container .box-regions-teams .box--filter .sigles--countries .sigles li{
+        width: 5rem;
+    }
+
+    .box--main .box-container .box-regions-teams .box--filter .sigles--countries{
+        margin-bottom: 3rem;
+    }
+
+    .box--main .box--rankings--teams{
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+
+    
+    .plays,
+    .ranking--teams td .names--plays{
+        display: none;
+    }
+
+    .ranking--teams td .team--infor .team--pts,
+    .team--infor .team--pts{
+        font-size: 1.5rem;
+    }
+
+    .ranking--teams td .ranking--position{
+        width: 5rem;
+    }
+
+    .ranking--teams td .team--infor .team .team--name--region .team--name{
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    .box--rankings--teams .info--change--rank{
+        font-size: 1.7rem;
+        line-height: 2.5rem;
+        margin: 5rem 7rem 0 7rem;
+    }
+
+    .footer{
+        padding: 3rem;
+        font-size: 1.7rem;
+    }
+} 
+
+@media(max-width:550px){
+    .ranking--position--bests{
+        font-size: 2.8rem;
+        width: 6.5rem;
+        height: 5.5rem;
+        line-height: 5.5rem;
+    }
+
+    .team--infor .box-item{
+        width: 6rem;
+        padding: .5rem .5rem;
+    }
+
+    .team--infor .team--pts strong{
+        padding-right: .5rem;
+    }
+
+    .team--infor .team .team--name--region .team--name{
+        font-size: 1.8rem;
+    }
+
+    .team--infor .team{
+        width: 100%;
+    }
+
+    .ranking--teams td .team--infor .team {
+        width: 100%;
+    }
+
+    .ranking--teams td .team--infor .team .team--name--region .team--name{
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+}
+
+
+
+

@@ -1,0 +1,13 @@
+.footer{
+    width: 100%;
+    min-height: 15rem;
+    background: var(--color-ambar-dourado);
+    text-align: center;
+    padding-top: 7.5rem;
+    color: var(--color-white-rigth);
+    font-family: var(--font-roboto);
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 15rem;
+    letter-spacing: .01rem;
+}
