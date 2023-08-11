@@ -34,4 +34,10 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    background: url('../images/escudos/fundo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 

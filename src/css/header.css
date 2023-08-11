@@ -2,7 +2,12 @@
     background: var(--color-ambar-dourado);
 }
 
-.header .menu--infor--gaming{
+.header .max--width{
+    max-width: 155rem;
+    margin: 0 auto;
+}
+
+.header .max--width .menu--infor--gaming{
     display: flex;
     align-items: center;
     border-bottom: .2rem solid var(--color-white-rigth);
@@ -11,35 +16,34 @@
     padding: 1.2rem 3%;
 }
 
-.header .menu--infor--gaming .menu--icon{
+.header .max--width .menu--infor--gaming .menu--icon{
     cursor:pointer;
     overflow-y: hidden;
     width: 40%;
     display: flex;
     align-items: flex-start;
+    max-width: 124rem;
 }
 
-.header .menu--infor--gaming .infor--gaming{
+.header .max--width .menu--infor--gaming .infor--gaming{
     font-size: 1.3rem;
     font-family: var(--font-roboto);
     color: var(--color-white-rigth);
     cursor: pointer;
 }
 
-.header .menu--infor--gaming .infor--gaming strong{
+.header .max--width .menu--infor--gaming .infor--gaming h4 strong{
     color: var(--color-brown-coffee);
     font-weight: 900;
 }
 
-/* ####################### // ######################## */
-
-.header .box--header{
+.header .max--width .box--header{
     display: flex;
     position: relative;
     align-items: center;
 }
 
-.header .box--header .logo--league{
+.header .max--width .box--header .logo--league{
     padding: 1rem 2rem;
     font-size: 2rem;
     color: var(--color-white-rigth);
@@ -50,11 +54,11 @@
     text-align: center;
 }
 
-.header .box--header .logo--league strong{
+.header .max--width .box--header .logo--league strong{
     color: var(--color-brown-coffee);
 }
 
-.header .box--header .logo--league .img--logo{
+.header .max--width .box--header .logo--league .img--logo{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,65 +67,43 @@
     font-family: var(--Open-Sans);
 }
 
-.header .box--header .logo--league .img--logo img{
+.header .max--width .box--header .logo--league .img--logo img{
     width: 6rem;
     margin-left: 1rem;
 }
 
-/* --------------- // ----------------- */
-
-.header .box--header .nav--bar{
+.header .max--width .box--header .nav--bar{
     display: flex;
     align-items: center;
-    width: 79%;
-    margin-left: 2.1rem;
 }
  
-
-.header .box--header .nav--bar .nav--list{
+.header .max--width .box--header .nav--bar .nav--list{
     display: flex;
     align-items: center;
     cursor: pointer;
+    margin-right: 22rem;
 }
 
-.header .box--header .nav--bar .nav--list .nav--item{
-    margin-right: 2.5rem;
-    letter-spacing: .1px;
+.header .max--width .box--header .nav--bar .nav--list .nav--item a{
     font-size: 2rem;
-}
-
-.header .box--header .nav--bar .nav--list .nav--item a{
-    font-size: 1.9rem;
     font-family: var(--font-roboto-mono);
     font-style: normal;
     color: var(--color-white-rigth);
-    letter-spacing: .1px;
     display: block;
+    margin: 0 3rem;
 }
 
-.header .box--header .nav--bar .nav--list .nav--item a::after{
-    content: "";
-    height: .3rem;
-    width: 0%;
-    display: block;
-    background: var(--color-brown-coffee);
+.header .max--width .box--header .nav--bar .nav--list .nav--item a:hover{
+    text-decoration: underline var(--color-brown-coffee) 2px;
 }
 
-.header .box--header .nav--bar .nav--list .nav--item a:hover::after{
-    width: 100%;
-    color: var(--color-brown-coffee);
-    font-weight: 600;
-    letter-spacing: .1px;
-}
-
-.header .box--header .nav--bar .item-pro-tour{
+.header .max--width .box--header .nav--bar .item-pro-tour{
     font-size: 1.7rem;
     font-weight: 200;
     cursor: pointer;
-    margin-left: 35%;
 }
 
-.header .box--header .nav--bar .item-pro-tour a{
+.header .max--width .box--header .nav--bar .item-pro-tour a{
     font-family: var(--font-roboto);
     letter-spacing: .1px;
     color: var(--color-white-rigth);
@@ -131,7 +113,7 @@
     padding-left: 2rem;
 }
 
-.header .box--header .nav--bar .item-pro-tour a:hover{
+.header .max--width .box--header .nav--bar .item-pro-tour a:hover{
     color: var(--color-brown-coffee);
     text-decoration: underline;
 }  
@@ -144,5 +126,4 @@
     border-radius: .5rem;
     position: absolute;
     right: 3rem;
-    top: 80%;
 }

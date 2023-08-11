@@ -9,30 +9,32 @@
         font-size: 50%;
     }
 
-    .header .menu--infor--gaming{
+    .header .max--width .menu--infor--gaming{
         border-bottom: .3rem solid var(--color-white-rigth);
     }
 
-    .header .menu--infor--gaming .infor--gaming{
+    .header .max--width .menu--infor--gaming .infor--gaming{
         display: none;
     }
 
-    .header .menu--infor--gaming .menu--icon{
+    .header .max--width .menu--infor--gaming .menu--icon{
         width: 100%;
     }
 
-    .header .box--header .nav--bar{
+    .header .max--width .box--header .nav--bar{
         background: var(--color-ambar-dourado);
         position: absolute;
         display: flex;
+        align-items: center;
+        justify-content: center;
         flex-direction: column;
-        top: -800%;
+        top: -1000%;
         z-index: 999;
         width: 100%;
-        margin-left: 0;
+        padding: 0;
     }
 
-    .header .box--header .nav--bar.active{
+    .header .max--width .box--header .nav--bar.active{
         top: 100%;
     }
 
@@ -42,44 +44,40 @@
         top: 10%;
     }
 
-    .box--main .box-container{
-        max-width: 96%;
-    }
-
-    .header .box--header .nav--bar .nav--list{
+    .header .max--width .box--header .nav--bar .nav--list{
         display: flex;
         flex-direction: column;
         width: 100%;
         justify-content: flex-end;
+        margin: 0;
     }
 
-    .header .box--header .nav--bar .nav--list .nav--item{
+    .header .max--width .box--header .nav--bar .nav--list .nav--item{
         text-align: center;
         margin-top: 3rem;
     }
 
-    .header .box--header .nav--bar .nav--list .nav--item a{
+    .header .max--width .box--header .nav--bar .nav--list .nav--item a{
         font-size: 2.2rem;
     }
 
-    .header .box--header .nav--bar .item-pro-tour{
-        margin-left: 0%;
+    .header .max--width .box--header .nav--bar .item-pro-tour{
+        text-align: center;
     }
 
-    .header .box--header .nav--bar .item-pro-tour a{
+    .header .max--width .box--header .nav--bar .item-pro-tour a{
         border: none;
         padding-left: 0;
     }
 
-    .header .box--header .nav--bar .item-pro-tour a{
+    .header .max--width .box--header .nav--bar .item-pro-tour a{
         font-size: 2rem;
     }
 
-    .header .box--header .logo--league{
+    .header .max--width .box--header .logo--league{
         width: 45%;
     }
 
-    
     .box{
         display: flex;
         align-items: center;
@@ -121,6 +119,10 @@
        
     }
 
+    .box--main .box-container{
+        max-width: 100%;
+        padding: 0 1rem;
+    }
 }
 
 @media(max-width:1050px){
@@ -128,13 +130,13 @@
         font-size: 50%;
     }
 
-    .header .menu--infor--ranking .menu--icon img{
+    .header .max--width .menu--infor--ranking .menu--icon img{
         margin-top: .7rem;
         width: 2.3rem;
         height: 2.3rem;
     }
 
-    .header .menu--infor--ranking .infor--ranking{
+    .header .max--width .menu--infor--ranking .infor--ranking{
         display: none;
     }
 
@@ -168,7 +170,6 @@
         padding: 0 1rem;
     }
 
-    
     .plays,
     .ranking--teams td .names--plays{
         display: none;
@@ -232,6 +233,15 @@
     .ranking--teams td .team--infor .team .team--name--region .team--name{
         font-size: 1.5rem;
         font-weight: 400;
+    }
+
+    .box--rankings--teams .info--change--rank{
+        margin: 2rem 2rem 2rem 7rem;
+        text-align: justify;
+    }
+
+    .box--rankings--teams .info--change--rank i{
+        font-size: 1.3rem;
     }
 }
 
