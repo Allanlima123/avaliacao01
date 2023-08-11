@@ -95,6 +95,7 @@
 
 .header .max--width .box--header .nav--bar .nav--list .nav--item a:hover{
     text-decoration: underline var(--color-brown-coffee) 2px;
+    color: var(--color-brown-coffee);
 }
 
 .header .max--width .box--header .nav--bar .item-pro-tour{
