@@ -24,10 +24,10 @@
 </div>
 
 <h2>Site Proposto</h2>
-🔗<a href="https://pro.eslgaming.com/worldranking/csgo/rankings/">Site worldranking</a>
+🔗<a href="https://pro.eslgaming.com/worldranking/csgo/rankings/" target="_blank">Site worldranking</a>
 
 <br />
 
 <h2>Link Deploy</h2>
-🔗<a href="https://allanlima123.github.io/avaliacao01/">Avaliação 01</a>
+🔗<a href="https://allanlima123.github.io/avaliacao01/" target="_blank">Avaliação 01</a>
    
