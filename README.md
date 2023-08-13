@@ -2,7 +2,9 @@
 
 <h1>Avaliação01 - **CS:GO WORLD RANKING</h1>
 
-   <p>Bem-vindo ao Site CS:GO WORLD RANKING! Este é um site exemplo no qual trás todas as informações e detalhes sobre o campeonato CS:GO Mundial, é um site simples e estático mas que lhe ajudar a conhecer melhor esse mundo dos Jogos. Este Site foi desenvolvido como pedido de dispensa da disciplina <strong>Desenvolvimento Web I</strong>, na qual avaliará os fundamentos das tecnologias HTML e CSS do Estudante.</p>
+<p>
+Seja bem-vindo ao CS:GO WORLD RANKING! Este é um exemplo de site que reúne informações e detalhes abrangentes sobre o Campeonato Mundial de CS:GO. Embora seja um site simples e estático, ele foi projetado para proporcionar uma imersão no emocionante universo dos jogos. Esta plataforma foi criada como parte dos requisitos da disciplina Desenvolvimento Web I e serve como uma avaliação dos fundamentos das tecnologias HTML e CSS pelo estudante.
+</p>
 
 ## 🚀💻tecnologias
 <div style="display: inline_block">
