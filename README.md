@@ -23,6 +23,11 @@
   <ins>google fonts</ins>
 </div>
 
+<h2>Site Proposto</h2>
+🔗<a href="https://pro.eslgaming.com/worldranking/csgo/rankings/">Site worldranking</a>
+
+<br />
+
 <h2>Link Deploy</h2>
 🔗<a href="https://allanlima123.github.io/avaliacao01/">Avaliação 01</a>
    
